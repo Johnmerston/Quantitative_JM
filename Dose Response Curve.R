@@ -3,8 +3,8 @@ library(drc)
 library(ggplot2)
 
 # Define the data
-concentration <- c(0, 0.5, 1, 2, 4)
-inhibition <- c(0, 33.33, 50, 83.33, 100)
+concentration <- c(Values)
+inhibition <- c(Values)
 
 # Create a data frame
 data <- data.frame(concentration, inhibition)
