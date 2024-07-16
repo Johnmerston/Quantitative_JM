@@ -2,7 +2,7 @@ library(nlme)
 library(mgcv)
 library(readxl)
 
-IC50_raw <- read_xlsx("C:\\JOHN\\BOREDOM\\DATA\\MOCK data for IC50.xlsx")
+IC50_raw <- read_xlsx("File_name.xlsx")
 head(IC50_raw)
 
 concentration <- IC50_raw$Concentrations
