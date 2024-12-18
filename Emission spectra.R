@@ -5,7 +5,7 @@ library(tidyr)
 library(dplyr)  # Added for data manipulation
 
 # Path to the Excel file (update this path to match your system)
-file_path <- "C:\\JOHN\\OTHERS\\christ\\STUDENTS\\Sharath\\emission results.xlsx"
+file_path <- "C:\\___\\emission results.xlsx"
 
 # Read data from sheet "Sheet2"
 em_data <- read_xlsx(file_path, sheet = "Sheet2")
